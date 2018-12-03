@@ -1,12 +1,9 @@
 // Use C++17 std 
 #include <iostream>
+#include <vector>
 
-int main(){
-    int a[] = {100,99,98,97,96,10,31,5}; 
-    int n = std::size(a);
-    std::cout<< "Array size" << n << std::endl;
-
-    //Bubble sort
+void BubbleSort(std::vector<int> a){
+    int n = a.size();
     for (int j = 1; j < n; j++){
         for (int i = 0; i < (n-j); i++){
             if (a[i] > a[i+1]){ // Swap elements
@@ -16,9 +13,17 @@ int main(){
             }
         }
     }
+}
+
+int main(){
+    std::vector<int> a = {100,99,98,97,96,10,31,5}; 
+
+    //Bubble sort
+    BubbleSort(a);
+
 
     // Print array
-    for (int i =0; i < n; i++){
+    for (int i =0; i < a.size(); i++){
         std::cout << a[i] << std::endl;
     }
     
