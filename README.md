@@ -1,3 +1,6 @@
 # DSA
 A repo for my DSA practice.
-Mostly in C++
+
+## Content
+1. Sorting : Bubblesort, Selectionsort
+2. Graphs : Adding nodes, listing edges
