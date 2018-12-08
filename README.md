@@ -14,4 +14,4 @@ A repo for my DSA practice.
 * Knight's tour of board
 * Travelling salesman
 * Heaps ?
-* Knapsack, Longest increasing sequence, Longest common sequence
+* Dynamic Programming : Knapsack, Longest increasing sequence, Longest common sequence
