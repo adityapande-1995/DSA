@@ -1,4 +1,5 @@
 #!python3
+# Actually not a very efficient method
 import numpy as np
 
 nums = [1,2,5]
