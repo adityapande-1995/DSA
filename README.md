@@ -13,5 +13,5 @@ A repo for my DSA practice.
 * Merge sort, quick sort
 * Knight's tour of board
 * Travelling salesman
-* Heaps ?
+* Heaps, heapq module in python
 * Dynamic Programming : Knapsack, Longest increasing sequence, Longest common sequence
