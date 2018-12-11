@@ -39,16 +39,31 @@ class Graph:
                 self.edges.append( (node, neighbour) )
     
     def show(self):
-        print("Neighbours : ",self.g,"\n")
+        print("Adjacency lists: ")
+        for key, value in self.g.items():
+            print("*",key," : ", value)
         print("Edges : ", self.edges)
 
-    def DFS(self, current, visited=[]): # Depth first
+    def DFS(self, current, visited=[]): # Depth first traversal
         print("Visited node: ", current)
         visited.append(current)
         
         for child_node, distance in self.g[current]:
             if child_node not in visited:
                 self.DFS(child_node, visited)
+    
+    def BFS(self, current):
+        Queue = [current]
+        visited = [current]
+        print("Visited node: ", current)
+        while (len(Queue) != 0):
+            v = Queue.pop(0)
+            for neighbour,distance in self.g[v]:
+                if neighbour not in visited:
+                    Queue.append(neighbour)
+                    visited.append(neighbour)
+                    print("Visited node: ", neighbour)
+
 
 # Main
 
@@ -65,4 +80,8 @@ a.update_edges()
 
 a.show()
 
+print("\nDepth first traversal demo")
 a.DFS( Node("a") )
+print("\nBreadth first traversal demo")
+a.BFS( Node("a") )
+
