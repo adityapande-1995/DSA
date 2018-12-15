@@ -8,7 +8,7 @@ A repo for my DSA practice.
 4. N rooks and N Queens problem on a NxN chess board
 5. knight walk : DFS and BFS based approach for moving a knight from one point to other on a NxN chess board
 6. Linked lists : Traverse, pushback/front, insert/delete nodes
-7. Trees : BST (insertion, pre/post/inorder, level order traversal)
+7. Trees : BST (insertion, pre/post/in/level order traversal)
 
 ## To do
 * Merge sort, quick sort
@@ -16,3 +16,4 @@ A repo for my DSA practice.
 * Travelling salesman
 * Heaps, heapq module in python
 * Dynamic Programming : Knapsack, Longest increasing sequence, Longest common sequence
+* Trees : node deletion, subtree height,depth, properties, AVL trees
