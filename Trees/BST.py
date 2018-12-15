@@ -41,6 +41,20 @@ class BST:
     
     def insert(self, other):
         self.root.insert(other)
+
+    def show_postorder(self, start):
+        if start:
+            self.show_inorder(start.left)
+            self.show_inorder(start.right)
+            print("Visited, value, depth: ", start, start.content, start.depth)
+
+    def show_inorder(self, start):
+        if start:
+            self.show_inorder(start.left)
+
+            print("Visited, value, depth: ", start, start.content, start.depth)
+
+            self.show_inorder(start.right)
     
     def show_preorder(self, start, visited=[]):
         print("Visited, value, depth: ", start, start.content, start.depth)
@@ -70,9 +84,6 @@ class BST:
                 print("Visited, value, depth: ", v.right,v.right.content, v.right.depth)
 
 
-
-        
-
 # Main
 alpha = Node("a", 10)
 a = BST( alpha )
@@ -83,10 +94,15 @@ a.insert( Node("f", 14) )
 a.insert( Node("g", 7) )
 a.insert( Node("h", 2) )
 a.insert( Node("i", 1) )
+a.insert( Node("j", 6) )
+a.insert( Node("k", 8) )
 
 print("Preorder traversal")
 a.show_preorder( alpha )
 print("\nLevel order traversal")
 a.show_level_order( alpha )
-
+print("\nInorder traversal")
+a.show_inorder( alpha )
+print("\nPostorder traversal")
+a.show_postorder( alpha )
 
