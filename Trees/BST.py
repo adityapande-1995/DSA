@@ -44,8 +44,8 @@ class BST:
 
     def show_postorder(self, start):
         if start:
-            self.show_inorder(start.left)
-            self.show_inorder(start.right)
+            self.show_postorder(start.left)
+            self.show_postorder(start.right)
             print("Visited, value, depth: ", start, start.content, start.depth)
 
     def show_inorder(self, start):
