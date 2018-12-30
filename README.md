@@ -9,7 +9,7 @@ A repo for my DSA practice.
 5. knight walk : DFS and BFS based approach for moving a knight from one point to other on a NxN chess board
 6. Linked lists : Traverse, pushback/front, insert/delete nodes
 7. Trees : BST (insertion, pre/post/in/level order traversal)
-8. DP : LCS, LIS, LPS
+8. DP : LCS, LIS, LPS, edit-distance
 
 ## To do
 * Merge sort, quick sort
