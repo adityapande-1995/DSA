@@ -17,3 +17,4 @@ A repo for my DSA practice.
 * Travelling salesman
 * Heaps, heapq module in python
 * Trees : node deletion, subtree height,depth, properties, AVL trees
+* Kadanes' Algo
