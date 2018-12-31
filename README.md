@@ -10,7 +10,7 @@ A repo for my DSA practice.
 6. Linked lists : Traverse, pushback/front, insert/delete nodes
 7. Trees : BST (insertion, pre/post/in/level order traversal)
 8. DP : LCS, LIS, LPS, edit-distance, rod length cutting, coin-change, knapsack
-9. Heaps : Implementaton
+9. Heaps : Implementaton, kth largest
 
 ## To do
 * Merge sort, quick sort
