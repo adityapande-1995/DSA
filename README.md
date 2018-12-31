@@ -10,11 +10,11 @@ A repo for my DSA practice.
 6. Linked lists : Traverse, pushback/front, insert/delete nodes
 7. Trees : BST (insertion, pre/post/in/level order traversal)
 8. DP : LCS, LIS, LPS, edit-distance, rod length cutting, coin-change, knapsack
+9. Heaps : Implementaton
 
 ## To do
 * Merge sort, quick sort
 * Knight's tour of board
 * Travelling salesman
-* Heaps, heapq module in python
 * Trees : node deletion, subtree height,depth, properties, AVL trees
 * Kadanes' Algo
