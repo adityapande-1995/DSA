@@ -17,4 +17,4 @@ A repo for my DSA practice.
 * Knight's tour of board
 * Travelling salesman
 * Trees : node deletion, subtree height,depth, properties, AVL trees
-* Kadanes' Algo
+
