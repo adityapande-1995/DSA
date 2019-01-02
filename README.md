@@ -14,7 +14,6 @@ A repo for my DSA practice.
 
 ## To do
 * Merge sort, quick sort
-* Knight's tour of board
 * Travelling salesman
 * Trees : node deletion, subtree height,depth, properties, AVL trees
 
