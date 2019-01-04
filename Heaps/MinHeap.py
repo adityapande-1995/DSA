@@ -21,7 +21,7 @@ class MinHeap: # Min heap implementation
     def empty(self):
         return self.size() == 0
 
-    def heapify_down(self,i):
+    def heapify_down(self,i):  # Used when popping elements
         left = self.LEFT(i)
         right = self.RIGHT(i)
         smallest = i
@@ -37,7 +37,7 @@ class MinHeap: # Min heap implementation
             self.A[i], self.A[smallest] = self.A[smallest], self.A[i]  
             self.heapify_down(smallest)
 
-    def heapify_up(self,i):
+    def heapify_up(self,i): # Used when inserting elements
         # Check if node at i and its parent violates heap property
         if i and self.A[self.PARENT(i)] > self.A[i]:
             self.A[i], self.A[self.PARENT(i)] = self.A[self.PARENT(i)], self.A[i] 
