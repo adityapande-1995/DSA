@@ -11,6 +11,7 @@ A repo for my DSA practice.
 7. Trees : BST (insertion, pre/post/in/level order traversal)
 8. DP : LCS, LIS, LPS, edit-distance, rod length cutting, coin-change, knapsack, Kadanes' algo, Matrix chain multiplication,           Dice throw, subset sum
 9. Heaps : Implementation, kth largest
+10. Sieve of Eratosthenes for prime numbers
 
 ## To do
 * Merge sort, quick sort
