@@ -17,22 +17,6 @@ def valid_neighbours(B,n):
     
     return neighbours
 
-def walk_BFS(B,n):
-    Queue = [B]
-    visited = [B]
-    print("Starting walk from given board ",B)
-    while len(Queue) != 0:
-        v = Queue.pop(0)
-        for neb in valid_neighbours(v.copy(), n): # All valied neighbours
-            if neb not in visited:
-                Queue.append(neb)
-                visited.append(neb)
-                if len(visited)%100 : print("Total states visited : ",len(visited))
-                # print("Visited state ",neb)
-                if len(neb) == n*n :
-                    print("Found solution: ",neb)
-                    print("Totoal nodes visited: ",len(visited))
-
 dfs_vis = 0
 def walk_DFS(B,n):
     global dfs_vis
@@ -50,9 +34,8 @@ def walk_DFS(B,n):
 
 
 # Main
-Board = [(1,1)] # Knight at bottom left corner of board
+Board = [(1,1)] # Knight at bottom left corner of board. "Board" is a sequence of moves made
 board_size = 8 
-# walk_BFS(Board,board_size) 
 walk_DFS(Board,board_size) # Took me 8250732 nodes to get 1st result
 
 
