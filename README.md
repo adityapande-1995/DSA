@@ -12,6 +12,7 @@ A repo for my DSA practice.
 8. DP : LCS, LIS, LPS, edit-distance, rod length cutting, coin-change, knapsack, Kadanes' algo, Matrix chain multiplication,           Dice throw, subset sum
 9. Heaps : Implementation, kth largest
 10. Sieve of Eratosthenes for prime numbers
+11. Lexicographic order of permutations
 
 ## To do
 * Merge sort, quick sort
