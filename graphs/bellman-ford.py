@@ -1,6 +1,7 @@
 #!python3
 # Bellman Ford algorithm
-# This handles negative weights but not cyclic graphs
+# This handles negative weights but but not if a cycle has total -ve weight. Total +ve weight cycle is fine.
+# Can detect total -ve weight cycle, if vertices get relaxed even after n-1 loops. 
 
 from math import inf
 
