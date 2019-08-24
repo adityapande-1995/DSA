@@ -1,5 +1,6 @@
 #!python3
 # Bellman Ford algorithm
+# This handles negative weights
 
 from math import inf
 
