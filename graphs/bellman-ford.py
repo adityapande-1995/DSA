@@ -1,6 +1,6 @@
 #!python3
 # Bellman Ford algorithm
-# This handles negative weights
+# This handles negative weights but not cyclic graphs
 
 from math import inf
 
